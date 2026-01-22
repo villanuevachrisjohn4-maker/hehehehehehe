@@ -1,2 +1,38 @@
-# hehehehehehe
-hehe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Do You Love Me? 💕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACKGROUND MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="love-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- QUESTION BOX -->
+  <div class="container" id="questionBox">
+    <video src="Reply me love.mp4" autoplay loop muted></video>
+    <h2>Do you love me? 💞</h2>
+
+    <div class="buttons">
+      <button class="btn yes" id="yesBtn">Yes 💖</button>
+      <button class="btn no" id="noBtn">No 💔</button>
+    </div>
+  </div>
+
+  <!-- RESULT BOX -->
+  <div class="container hidden" id="resultBox">
+    <video src="Love me.mp4" autoplay loop muted></video>
+    <h2>I knew it! 😍</h2>
+    <p class="message">You make my heart so happy 💕</p>
+
+    <div class="heart"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
